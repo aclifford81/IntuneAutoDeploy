@@ -1,0 +1,14 @@
+{
+    "@odata.type":  "#microsoft.graph.windowsHealthMonitoringConfiguration",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "description":  null,
+    "displayName":  "Windows 10 - Health Monitoring",
+    "allowDeviceHealthMonitoring":  "enabled",
+    "configDeviceHealthMonitoringScope":  "healthMonitoring,bootPerformance,windowsUpdates",
+    "configDeviceHealthMonitoringCustomScope":  null
+}
