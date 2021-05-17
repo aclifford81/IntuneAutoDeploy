@@ -1,0 +1,22 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10CustomConfiguration",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "description":  null,
+    "displayName":  "Windows 10  - Set Time Zone",
+    "omaSettings":  [
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "Set time zone",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/TimeLanguageSettings/ConfigureTimeZone",
+                            "secretReferenceValueId":  null,
+                            "isEncrypted":  false,
+                            "value":  "Central Standard Time"
+                        }
+                    ]
+}

@@ -1,0 +1,65 @@
+{
+    "@odata.type":  "#microsoft.graph.iosUpdateConfiguration",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "description":  "",
+    "displayName":  "Cliffnet iOS",
+    "isEnabled":  false,
+    "activeHoursStart":  "00:00:00.0000000",
+    "activeHoursEnd":  "00:00:00.0000000",
+    "desiredOsVersion":  null,
+    "scheduledInstallDays":  [
+
+                             ],
+    "utcTimeOffsetInMinutes":  -360,
+    "enforcedSoftwareUpdateDelayInDays":  null,
+    "updateScheduleType":  "updateDuringTimeWindows",
+    "customUpdateTimeWindows":  [
+                                    {
+                                        "startDay":  "sunday",
+                                        "endDay":  "sunday",
+                                        "startTime":  "01:00:00.0000000",
+                                        "endTime":  "03:00:00.0000000"
+                                    },
+                                    {
+                                        "startDay":  "monday",
+                                        "endDay":  "monday",
+                                        "startTime":  "01:00:00.0000000",
+                                        "endTime":  "03:00:00.0000000"
+                                    },
+                                    {
+                                        "startDay":  "tuesday",
+                                        "endDay":  "tuesday",
+                                        "startTime":  "01:00:00.0000000",
+                                        "endTime":  "03:00:00.0000000"
+                                    },
+                                    {
+                                        "startDay":  "wednesday",
+                                        "endDay":  "wednesday",
+                                        "startTime":  "01:00:00.0000000",
+                                        "endTime":  "03:00:00.0000000"
+                                    },
+                                    {
+                                        "startDay":  "thursday",
+                                        "endDay":  "tuesday",
+                                        "startTime":  "01:00:00.0000000",
+                                        "endTime":  "03:00:00.0000000"
+                                    },
+                                    {
+                                        "startDay":  "friday",
+                                        "endDay":  "friday",
+                                        "startTime":  "01:00:00.0000000",
+                                        "endTime":  "03:00:00.0000000"
+                                    },
+                                    {
+                                        "startDay":  "saturday",
+                                        "endDay":  "saturday",
+                                        "startTime":  "01:00:00.0000000",
+                                        "endTime":  "03:00:00.0000000"
+                                    }
+                                ]
+}
